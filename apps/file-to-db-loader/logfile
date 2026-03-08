@@ -1,0 +1,48 @@
+2026-03-07 22:50:45.170 WET [63102] LOG:  starting PostgreSQL 18.3 (Homebrew) on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-03-07 22:50:45.172 WET [63102] LOG:  could not bind IPv6 address "::1": Address already in use
+2026-03-07 22:50:45.172 WET [63102] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-03-07 22:50:45.172 WET [63102] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2026-03-07 22:50:45.172 WET [63102] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-03-07 22:50:45.172 WET [63102] WARNING:  could not create listen socket for "localhost"
+2026-03-07 22:50:45.172 WET [63102] FATAL:  could not create any TCP/IP sockets
+2026-03-07 22:50:45.172 WET [63102] LOG:  database system is shut down
+2026-03-07 22:52:39.134 WET [63705] LOG:  starting PostgreSQL 18.3 (Homebrew) on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-03-07 22:52:39.136 WET [63705] LOG:  listening on IPv6 address "::1", port 5432
+2026-03-07 22:52:39.136 WET [63705] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-03-07 22:52:39.136 WET [63705] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2026-03-07 22:52:39.137 WET [63705] LOG:  database system is shut down
+2026-03-07 22:54:35.745 WET [64890] LOG:  starting PostgreSQL 18.3 (Homebrew) on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-03-07 22:54:35.747 WET [64890] LOG:  listening on IPv6 address "::1", port 5432
+2026-03-07 22:54:35.747 WET [64890] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-03-07 22:54:35.747 WET [64890] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2026-03-07 22:54:35.747 WET [64890] LOG:  database system is shut down
+2026-03-07 22:56:22.036 WET [65944] LOG:  starting PostgreSQL 18.3 (Homebrew) on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2026-03-07 22:56:22.038 WET [65944] LOG:  listening on IPv6 address "::1", port 5432
+2026-03-07 22:56:22.038 WET [65944] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-03-07 22:56:22.038 WET [65944] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2026-03-07 22:56:22.051 WET [65950] LOG:  database system was shut down at 2026-03-07 22:48:57 WET
+2026-03-07 22:56:22.055 WET [65944] LOG:  database system is ready to accept connections
+2026-03-07 23:00:42.798 WET [67092] FATAL:  role "postgres" does not exist
+2026-03-07 23:00:42.806 WET [67093] FATAL:  role "postgres" does not exist
+2026-03-07 23:01:00.373 WET [67097] FATAL:  role "postgres" does not exist
+2026-03-07 23:01:00.380 WET [67098] FATAL:  role "postgres" does not exist
+2026-03-07 23:01:10.749 WET [67102] FATAL:  role "postgres" does not exist
+2026-03-07 23:01:10.757 WET [67103] FATAL:  role "postgres" does not exist
+2026-03-07 23:01:22.049 WET [65948] LOG:  checkpoint starting: time
+2026-03-07 23:01:26.300 WET [67105] FATAL:  role "postgres" does not exist
+2026-03-07 23:01:26.307 WET [67106] FATAL:  role "postgres" does not exist
+2026-03-07 23:01:50.921 WET [67115] FATAL:  role "postgres" does not exist
+2026-03-07 23:01:50.928 WET [67116] FATAL:  role "postgres" does not exist
+2026-03-07 23:05:52.094 WET [65948] LOG:  checkpoint complete: wrote 3540 buffers (21.6%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=270.032 s, sync=0.007 s, total=270.044 s; sync files=343, longest=0.001 s, average=0.001 s; distance=31928 kB, estimate=31928 kB; lsn=0/36C8978, redo lsn=0/36B9080
+2026-03-07 23:13:48.819 WET [65948] LOG:  checkpoint starting: time
+2026-03-07 23:18:33.422 WET [65948] LOG:  checkpoint complete: wrote 2570 buffers (15.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 3 recycled; write=284.600 s, sync=0.001 s, total=284.603 s; sync files=43, longest=0.001 s, average=0.001 s; distance=54351 kB, estimate=54351 kB; lsn=0/6BCCE78, redo lsn=0/6BCCDE8
+2026-03-08 11:58:02.135 WET [71831] LOG:  invalid length of startup packet
+2026-03-08 12:07:49.693 WET [73116] FATAL:  role "itvrsity_retail_user" does not exist
+2026-03-08 12:09:11.392 WET [65948] LOG:  checkpoint starting: time
+2026-03-08 12:09:11.818 WET [65948] LOG:  checkpoint complete: wrote 4 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.415 s, sync=0.001 s, total=0.426 s; sync files=3, longest=0.001 s, average=0.001 s; distance=23 kB, estimate=48918 kB; lsn=0/6BD2B90, redo lsn=0/6BD2B38
+2026-03-08 12:19:11.821 WET [65948] LOG:  checkpoint starting: time
+2026-03-08 12:19:12.141 WET [65948] LOG:  checkpoint complete: wrote 3 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.311 s, sync=0.001 s, total=0.320 s; sync files=1, longest=0.001 s, average=0.001 s; distance=14 kB, estimate=44028 kB; lsn=0/6BD6500, redo lsn=0/6BD64A8
+2026-03-08 12:29:11.140 WET [65948] LOG:  checkpoint starting: time
+2026-03-08 12:29:14.334 WET [65948] LOG:  checkpoint complete: wrote 31 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=3.181 s, sync=0.004 s, total=3.194 s; sync files=43, longest=0.001 s, average=0.001 s; distance=27223 kB, estimate=42347 kB; lsn=0/866C170, redo lsn=0/866C0E0
+2026-03-08 12:49:11.338 WET [65948] LOG:  checkpoint starting: time
+2026-03-08 12:53:31.289 WET [65948] LOG:  checkpoint complete: wrote 2554 buffers (15.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=259.941 s, sync=0.002 s, total=259.951 s; sync files=24, longest=0.001 s, average=0.001 s; distance=27206 kB, estimate=40833 kB; lsn=0/A0FDA08, redo lsn=0/A0FD978
