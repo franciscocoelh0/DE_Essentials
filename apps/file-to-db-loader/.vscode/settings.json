@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "./ftdl--venv/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true
+}

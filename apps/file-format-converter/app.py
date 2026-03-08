@@ -55,9 +55,11 @@ def process_files(ds_names=None):
         except NameError as e:
             print(f'Error processing {ds_name}: {e}')
             pass
-    if len(sys.argv) == 2: # Check if a JSON array of dataset names is provided as a command-line argument
-        ds_names = json.loads(sys.argv[1]) # Get the content from JSON array converted to a Python list
+    
+    
+if __name__ == '__main__':
+    if len(sys.argv) == 2:
+        ds_names = json.loads(sys.argv[1]) 
         process_files(ds_names)
     else:
         process_files()
-
