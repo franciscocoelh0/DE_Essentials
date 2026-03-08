@@ -1,3 +1,5 @@
+#### This is a simple Python program that checks if a given integer is even or odd. It also includes error handling to ensure that the user inputs a valid integer.
+
 print('Hello World')
 
 
