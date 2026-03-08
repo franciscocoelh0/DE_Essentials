@@ -1,4 +1,7 @@
 {
-    "python.defaultInterpreterPath": "./ffc--venv/bin/python",
-    "python.terminal.activateEnvInCurrentTerminal": true
+    "python.defaultInterpreterPath": "apps/file-format-converter/ffc--venv/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.analysis.extraPaths": [
+        "apps/file-format-converter"
+    ]
 }
