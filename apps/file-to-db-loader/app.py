@@ -16,7 +16,11 @@ def read_csv(file, schemas):
     file_path_list = re.split('[/\\\]', file)
     ds_name = file_path_list[-2]
     columns = get_column_names(schemas, ds_name)
-    df_reader = pd.read_csv(file, names=columns, chunksize=10000)
+    # Chucnksize: Mitigating the issue of memory overflow by reading the csv file in chunks of 10000 rows 
+    # -> app + reliable and performance oriented. 
+    # Troubleshooting: If there's an exception on any of the chunks, the error message will be printed and the process will continue 
+    # with the next chunk, ensuring that the entire dataset is processed without interruption. 
+    df_reader = pd.read_csv(file, names=columns, chunksize=10000) 
     return df_reader
 
 
@@ -66,7 +70,7 @@ def process_files(ds_names=None):
             traceback.print_exc() # This reveals the real error message
             pass
         finally:
-            print(f'Error Processing {ds_name}')
+            print(f'Data Processing of {ds_name} is complete')
 
 
 if __name__ == '__main__':
