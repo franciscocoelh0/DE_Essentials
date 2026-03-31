@@ -1,6 +1,0 @@
-{
-    "terminal.integrated.env.osx": {
-        "JAVA_HOME": "/Library/Java/JavaVirtualMachines/openjdk-17.jdk/Contents/Home"
-    },
-    "python.envFile": "${workspaceFolder}/.env"
-}

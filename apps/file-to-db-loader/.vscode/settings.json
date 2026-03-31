@@ -1,7 +1,0 @@
-{
-    "python.defaultInterpreterPath": "apps/file-to-db-loader/ftdl--venv/bin/python",
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.analysis.extraPaths": [
-        "apps/file-to-db-loader"
-    ]
-}
