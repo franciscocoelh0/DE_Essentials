@@ -5,4 +5,6 @@ hdfs dfs -put data/retail_db/products /user/franciscocoelho/retail_db/products
 
 hdfs dfs -ls /user/franciscocoelho/retail_db
 
-hdfs dfs -rm -R skipTrash /user/franciscocoelho/retail_db
+hdfs dfs -rm -R skipTrash /user/franciscocoelho/retail_db 
+
+hdfs dfs -ls /user/franciscocoelho/retail_db
